@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Link Thumbnail Generator </title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+    <div class="row">
+      <center>
+      <div class="large-12 columns">
+        <div class="callout panel" style="margin-top:20px;">
+        <h1>Video Picture Links</h1>
+        <h6>(For emails and stuff)</h6>
+      </div>
+      </center>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="large-12 medium-12 columns">
+        <div class="callout panel">
+          <center><h3>Youtube</h3></center>
+          <form class="ytInput" action="#">
+              <div class="row">
+                <div class="small-3 columns">
+                  <label for="ytID" class="left inline" id="ytInputLabel">Youtube.com/watch?v=</label>
+                </div>
+                <div class="small-9 columns" style="padding-left:5px;">
+                  <input type="text" id="ytID" />
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="large-3 medium-3 columns">
+        <div class="callout panel controller hideMe">
+          <center>
+            <h3>Buttons</h3>
+            <img class="buttonshape" id="square" src="http://kgwebsites.com/images/playbuttons/square/red.png" style="width: 70px;" alt="" />
+            <br>
+            <img class="buttonshape" id="circle" src="http://kgwebsites.com/images/playbuttons/circle/blue.png" style="width: 60px;margin-top:10px;margin-right:3px;" alt="" />
+          </center>
+        </div>
+      </div>
+        <div class="large-6 medium-6 columns">
+          <div class="callout panel controller hideMe">
+            <center>
+              <h3>Preview</h3>
+              <div class="videoLink">
+              </div>
+            </center>
+          </div>
+       </div>
+
+          <div class="large-3 medium-3 columns">
+            <div class="callout panel controller hideMe">
+            <center>
+              <h3>Colors</h3>
+              <div class="row">
+              <div class="colors" id="red"></div>
+              <div class="colors" id="orange"></div>
+              <div class="colors" id="yellow"></div>
+              <div class="colors" id="green"></div>
+              <div class="colors" id="blue"></div>
+              <div class="colors" id="purple"></div>
+              <div class="colors" id="pink"></div>
+            </div>
+            <div class="row">
+              <div class="colors" id="black"></div>
+              <div class="colors" id="darkerGrey"></div>
+              <div class="colors" id="darkGrey"></div>
+              <div class="colors" id="grey"></div>
+              <div class="colors" id="lightGrey"></div>
+              <div class="colors" id="lighterGrey"></div>
+              <div class="colors" id="white"></div>
+            </div>
+
+            </center>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="large-12 medium-12 columns">
+        <div class="callout panel hideMe">
+          <center>
+            <h3>Source Code</h3>
+            <textarea class="videoCode"></textarea>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

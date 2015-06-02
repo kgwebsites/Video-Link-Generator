@@ -1,0 +1,81 @@
+body {
+  background: #2B2C2C;
+}
+
+label#ytInputLabel{
+  right: 0px;
+  position: absolute;
+  font-weight: bold;
+  padding-top: 15px;
+  right:0px;
+  position:absolute;
+}
+
+input#ytID {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #ACACAC;
+  color: #ACACAC;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-weight:bold;
+}
+
+.videoCode{
+  height: 70px;
+}
+.panel.callout {
+  background: #4D4D4D;
+  border-color: #868686;
+  max-height:400px;
+  opacity:1;
+  transition: min-height 1s ease-in, max-height 1s ease-in, opacity 1s ease-in;
+  overflow:hidden;
+  }
+  .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl, .panel.callout label {
+  color: #ACACAC;
+}
+
+.panel.callout.controller{
+  min-height:382.188px;
+}
+.panel.callout.hideMe{
+  visibility:hidden;
+  min-height:0;
+  max-height:0;
+  opacity:0;
+
+}
+.buttonshape:hover{
+  cursor:pointer;
+}
+
+  .colors {
+    border: 1px solid transparent;
+    height: 25px;
+    width: 25px;
+    color: #000;
+    position:relative;
+    float:left;
+
+  }
+  .colors:hover{
+    cursor: pointer;
+  }
+/* COLOR WHEEL */
+  #red{background:#C41414;}
+  #orange{background: #FCA81F;}
+  #yellow{background: #F8E71C;}
+  #green{background: #25C828;}
+  #blue{background: #2E99E5;}
+  #purple{background: #BD10E0;}
+  #pink{background: #E430B1;}
+/* GREY SCALE */
+  #black{background: #2E2D2D;}
+  #darkerGrey{background: #434242;}
+  #darkGrey{background: #747474;}
+  #grey{background: #9B9B9B;}
+  #lightGrey{background: #C6C5C6;}
+  #lighterGrey{background: #EAEAEA;}
+  #white{background: #FFFFFF;}
