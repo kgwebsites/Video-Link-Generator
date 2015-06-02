@@ -5,3 +5,5 @@ This is a Thumbnail preview generator for Youtube videos. Most email clients don
 This does exactly that and gives you the HTML code to place in your email. 
 
 Created with the CSS framework: Foundation, jQuery, and PNG images created with Sketch that are hosted on my server.
+
+Can be found at http://vidlinkthumbgen.kgwebsites.com/
