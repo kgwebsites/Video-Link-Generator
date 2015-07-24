@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 $('.ytInput').on('keyup',function (){
   id = $('#ytID').val();
-  ytPic = "http://img.youtube.com/vi/" + id + "/0.jpg";
+  ytPic = "https://i.ytimg.com/vi" + id + "/mqdefault.jpg";
   link = "http://youtube.com/watch?v=" + id;
   shape = "square";
   color = "red";
